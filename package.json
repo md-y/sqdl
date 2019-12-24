@@ -1,0 +1,32 @@
+{
+  "name": "sqdl",
+  "version": "0.0.1",
+  "description": "Sequence DL - Download sequences of images from multiple sources and APIs.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "sqdl version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-y/sqdl.git"
+  },
+  "keywords": [
+    "sqdl",
+    "sequence",
+    "downloader",
+    "image",
+    "booru"
+  ],
+  "author": "m;dy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/md-y/sqdl/issues"
+  },
+  "homepage": "https://github.com/md-y/sqdl#readme",
+  "bin": {
+    "sqdl": "./cli/cli.js"
+  },
+  "dependencies": {
+    "node.js": "^12.14.0"
+  }
+}

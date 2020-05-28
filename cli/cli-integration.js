@@ -164,6 +164,14 @@ const PARAMETERS = {
         suffixCount: 1,
         usage: "--url link",
         info: "Specifies request URL."
+    },
+    datasaver: {
+        getValue: function(args) {
+            return true;
+        },
+        suffixCount: 0,
+        usage: "--datasaver",
+        info: "Return data-saver images."
     }
 };
 

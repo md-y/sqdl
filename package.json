@@ -1,6 +1,6 @@
 {
   "name": "sqdl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sequence DL - Download sequences of images from multiple sources and APIs.",
   "main": "./src/index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "sqdl": "./cli/cli.js"
   },
   "dependencies": {
+    "mangadex-full-api": "^3.7.0",
     "node.js": "^12.14.0"
   }
 }

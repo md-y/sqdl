@@ -41,5 +41,18 @@ module.exports = {
         /** How many images will be downloaded concurrently
          * @type {Number} */
         groupSize: 50
+    },
+    mangadex: {
+        /** Manga or chapter to download
+         * @type {string} */
+        url: "https://mangadex.org/title/47",
+        /** How many images will be downloaded concurrently
+         * @type {Number} */
+        groupSize: 20,
+        /**
+         * Use datasaver servers?
+         * @type {Boolean}
+         */
+        datasaver: false
     }
 };

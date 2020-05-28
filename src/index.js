@@ -9,7 +9,9 @@ module.exports = {
         /** @extends {Requester} */
         booru: require("./hosts/booru"),
         /** @extends {Requester} */
-        reddit: require("./hosts/reddit")
+        reddit: require("./hosts/reddit"),
+        /** @extends {Requester} */
+        mangadex: require("./hosts/mangadex")
     },
     tag: require("./enum/tag"),
 };
